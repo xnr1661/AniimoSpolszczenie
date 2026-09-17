@@ -50,19 +50,19 @@ REMOTE_LANGUAGE_EN_PATTERN = b"\x07ja\x07en\x07ru"
 FONT_BUNDLES = {
     Path(
         r"Aniimo_Data\StreamingAssets\cvs\res\uab\win\DefaultPackage"
-        r"\xpt21_mres_exall_0_abc126a6fab1aac86d26fe769569e4c3.uab"
+        r"\xpt21_mres_exall_0_6883f347adc37d998ba8df1ea012ffbf.uab"
     ): {
-        "resource": "xpt21_mres_exall_0_abc126a6fab1aac86d26fe769569e4c3.uab",
-        "original_md5": "abc126a6fab1aac86d26fe769569e4c3",
-        "patched_md5": "966b8326f183466a2ead028944c44458",
+        "resource": "xpt21_mres_exall_0_6883f347adc37d998ba8df1ea012ffbf.uab",
+        "original_md5": "6883f347adc37d998ba8df1ea012ffbf",
+        "patched_md5": "7e9d379a8e577706dcbc460ef3350520",
     },
     Path(
         r"Aniimo_Data\StreamingAssets\cvs\res\uab\win\DefaultPackage"
-        r"\xpt21_ar_resx_04a564c8_xgui_font_0_793f79d6556224c77e0d7ac2cc47b7f2.uab"
+        r"\xpt21_ar_resx_04a564c8_xgui_font_0_b9bccb77207526a220270c8d794fc118.uab"
     ): {
-        "resource": "xpt21_ar_resx_04a564c8_xgui_font_0_793f79d6556224c77e0d7ac2cc47b7f2.uab",
-        "original_md5": "793f79d6556224c77e0d7ac2cc47b7f2",
-        "patched_md5": "56c888e5cecec1b9989a2e996524bf7b",
+        "resource": "xpt21_ar_resx_04a564c8_xgui_font_0_b9bccb77207526a220270c8d794fc118.uab",
+        "original_md5": "b9bccb77207526a220270c8d794fc118",
+        "patched_md5": "cf9e32697a97325dabf978db4d5783e7",
     },
 }
 
@@ -788,7 +788,7 @@ def main() -> int:
             print("\n[OK] Spolszczenie jest już aktualne; pliki nie wymagały zmian.")
         if result["backup"]:
             print(f"Backup: {result['backup']}")
-        print("W grze wybierz pozycję POLSKI w ustawieniach języka.")
+        print("W grze wybierz pozycję Polski w ustawieniach języka.")
         print("Technicznie używany jest slot vi_VN; język wietnamski zostaje zastąpiony.")
         pause_if_needed(args.no_pause)
         return 0
