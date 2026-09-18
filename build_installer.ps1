@@ -27,6 +27,13 @@ function Resolve-Python {
     throw "Nie znaleziono Pythona 3. Zainstaluj Python 3.12 lub podaj -PythonExecutable."
 }
 
+if (Test-Path -LiteralPath $venvPython) {
+    & $venvPython -c "import sys" 2>$null
+    if ($LASTEXITCODE -ne 0) {
+        Remove-Item -LiteralPath (Join-Path $root ".venv") -Recurse -Force
+    }
+}
+
 if (-not (Test-Path -LiteralPath $venvPython)) {
     $pythonCommand = @(Resolve-Python)
     $command = $pythonCommand[0]
@@ -34,16 +41,17 @@ if (-not (Test-Path -LiteralPath $venvPython)) {
     & $command @prefix -m venv (Join-Path $root ".venv")
 }
 
-$pyInstallerPackage = Join-Path $root ".venv\Lib\site-packages\PyInstaller"
-if (-not (Test-Path -LiteralPath $pyInstallerPackage)) {
-    & $venvPython -m pip install -r (Join-Path $root "requirements-build.txt")
-}
+& $venvPython -m pip install -r (Join-Path $root "requirements-build.txt")
 
 & $venvPython -m PyInstaller `
     --noconfirm `
     --clean `
     --onefile `
     --console `
+    --collect-data "UnityPy" `
+    --hidden-import "UnityPy.resources" `
+    --collect-all "fmod_toolkit" `
+    --collect-data "archspec" `
     --name "Aniimo_PL_Installer" `
     --distpath (Join-Path $root "dist") `
     --workpath (Join-Path $root "build") `

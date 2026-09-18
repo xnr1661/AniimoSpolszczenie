@@ -14,11 +14,15 @@ import tempfile
 from typing import Any
 import zipfile
 
+import numpy as np
+from PIL import Image, ImageDraw, ImageFont
+import UnityPy
+
 
 APP_NAME = "Aniimo PL Installer"
 TARGET_SLOT = "vi_VN"
 DISPLAY_TEXT_ID = "1471560215"
-DISPLAY_NAME = "Polski"
+DISPLAY_NAME = "POLSKI"
 KNOWN_TRANSLATION_ID = "1871651337"
 
 I18N_PREFIX = "xfs/luascripts/Data/I18N/"
@@ -47,24 +51,17 @@ REMOTE_LANGUAGE_MEMBERS = (
 REMOTE_LANGUAGE_VI_PATTERN = b"\x07ja\x07vi\x07ru"
 REMOTE_LANGUAGE_EN_PATTERN = b"\x07ja\x07en\x07ru"
 
-FONT_BUNDLES = {
-    Path(
-        r"Aniimo_Data\StreamingAssets\cvs\res\uab\win\DefaultPackage"
-        r"\xpt21_mres_exall_0_6883f347adc37d998ba8df1ea012ffbf.uab"
-    ): {
-        "resource": "xpt21_mres_exall_0_6883f347adc37d998ba8df1ea012ffbf.uab",
-        "original_md5": "6883f347adc37d998ba8df1ea012ffbf",
-        "patched_md5": "7e9d379a8e577706dcbc460ef3350520",
-    },
-    Path(
-        r"Aniimo_Data\StreamingAssets\cvs\res\uab\win\DefaultPackage"
-        r"\xpt21_ar_resx_04a564c8_xgui_font_0_b9bccb77207526a220270c8d794fc118.uab"
-    ): {
-        "resource": "xpt21_ar_resx_04a564c8_xgui_font_0_b9bccb77207526a220270c8d794fc118.uab",
-        "original_md5": "b9bccb77207526a220270c8d794fc118",
-        "patched_md5": "cf9e32697a97325dabf978db4d5783e7",
-    },
-}
+FONT_BUNDLE_DIR = Path(
+    r"Aniimo_Data\StreamingAssets\cvs\res\uab\win\DefaultPackage"
+)
+FONT_ASSET_PATTERN = "xpt21_mres_exall_0_*.uab"
+FONT_TEXTURE_PATTERN = "xpt21_ar_resx_*_xgui_font_0_*.uab"
+FONT_ASSET_NAME = "UI_Font_Chinese"
+FONT_TEXTURE_NAME = "UI_Font_Chinese_Atlas"
+POLISH_CODEPOINTS = (
+    0x0104, 0x0106, 0x0118, 0x0141, 0x0143, 0x00D3, 0x015A, 0x0179, 0x017B,
+    0x0105, 0x0107, 0x0119, 0x0142, 0x0144, 0x00F3, 0x015B, 0x017A, 0x017C,
+)
 
 
 def configure_console() -> None:
@@ -103,6 +100,279 @@ def md5_file(path: Path) -> str:
 
 def md5_bytes(data: bytes) -> str:
     return hashlib.md5(data).hexdigest()
+
+
+def find_font_tree(environment: Any, name: str) -> tuple[Any, dict[str, Any]]:
+    for obj in environment.objects:
+        if obj.type.name != "MonoBehaviour":
+            continue
+        try:
+            tree = obj.read_typetree()
+        except Exception:
+            continue
+        if tree.get("m_Name") == name:
+            return obj, tree
+    raise ValueError(f"Nie znaleziono fontu {name}.")
+
+
+def find_font_texture(environment: Any, name: str) -> Any:
+    for obj in environment.objects:
+        if obj.type.name != "Texture2D":
+            continue
+        data = obj.read()
+        if data.m_Name == name:
+            return data
+    raise ValueError(f"Nie znaleziono tekstury {name}.")
+
+
+def listed_bundle_names(game_dir: Path) -> set[str]:
+    path = game_dir / "md5list.txt"
+    if not path.is_file():
+        return set()
+    names: set[str] = set()
+    for line in path.read_text(encoding="utf-8", errors="ignore").splitlines():
+        parts = line.split(",", 2)
+        if len(parts) == 3:
+            names.add(parts[2].replace("\\", "/").rsplit("/", 1)[-1].casefold())
+    return names
+
+
+def select_font_bundle(
+    game_dir: Path,
+    pattern: str,
+    validator: Any,
+    description: str,
+) -> Path:
+    root = game_dir / FONT_BUNDLE_DIR
+    if not root.is_dir():
+        raise FileNotFoundError(f"Brakuje katalogu bundli fontów: {root}")
+    listed = listed_bundle_names(game_dir)
+    candidates = sorted(
+        root.glob(pattern),
+        key=lambda path: (path.name.casefold() in listed, path.stat().st_mtime_ns),
+        reverse=True,
+    )
+    errors: list[str] = []
+    for candidate in candidates:
+        try:
+            validator(candidate)
+            return candidate
+        except Exception as exc:
+            errors.append(f"{candidate.name}: {exc}")
+    details = "; ".join(errors[:3]) or "brak pasujących plików"
+    raise RuntimeError(f"Nie znaleziono aktualnego bundla {description}. {details}")
+
+
+def find_font_bundles(game_dir: Path) -> tuple[Path, Path]:
+    def validate_asset(path: Path) -> None:
+        find_font_tree(UnityPy.load(str(path)), FONT_ASSET_NAME)
+
+    def validate_texture(path: Path) -> None:
+        find_font_texture(UnityPy.load(str(path)), FONT_TEXTURE_NAME)
+
+    asset = select_font_bundle(
+        game_dir, FONT_ASSET_PATTERN, validate_asset, "danych UI_Font_Chinese"
+    )
+    texture = select_font_bundle(
+        game_dir, FONT_TEXTURE_PATTERN, validate_texture, "atlasu UI_Font_Chinese"
+    )
+    return asset, texture
+
+
+def missing_polish_codepoints(asset_path: Path) -> list[int]:
+    _obj, tree = find_font_tree(UnityPy.load(str(asset_path)), FONT_ASSET_NAME)
+    available = {int(entry["m_Unicode"]) for entry in tree["m_CharacterTable"]}
+    return [codepoint for codepoint in POLISH_CODEPOINTS if codepoint not in available]
+
+
+def chamfer_distance(target: np.ndarray) -> np.ndarray:
+    height, width = target.shape
+    distance = np.where(target, 0.0, 1e6).astype(np.float32)
+    diagonal = np.float32(1.41421356)
+    for y in range(height):
+        for x in range(width):
+            value = distance[y, x]
+            if y:
+                value = min(value, distance[y - 1, x] + 1.0)
+                if x:
+                    value = min(value, distance[y - 1, x - 1] + diagonal)
+                if x + 1 < width:
+                    value = min(value, distance[y - 1, x + 1] + diagonal)
+            if x:
+                value = min(value, distance[y, x - 1] + 1.0)
+            distance[y, x] = value
+    for y in range(height - 1, -1, -1):
+        for x in range(width - 1, -1, -1):
+            value = distance[y, x]
+            if y + 1 < height:
+                value = min(value, distance[y + 1, x] + 1.0)
+                if x:
+                    value = min(value, distance[y + 1, x - 1] + diagonal)
+                if x + 1 < width:
+                    value = min(value, distance[y + 1, x + 1] + diagonal)
+            if x + 1 < width:
+                value = min(value, distance[y, x + 1] + 1.0)
+            distance[y, x] = value
+    return distance
+
+
+def render_sdf(font: ImageFont.FreeTypeFont, character: str, padding: int = 3) -> tuple[Image.Image, dict[str, float]]:
+    left, top, right, bottom = font.getbbox(character, anchor="ls")
+    width = max(1, right - left)
+    height = max(1, bottom - top)
+    mask = Image.new("L", (width + padding * 2, height + padding * 2), 0)
+    draw = ImageDraw.Draw(mask)
+    draw.text((padding - left, padding - top), character, font=font, fill=255, anchor="ls")
+    inside = np.asarray(mask, dtype=np.uint8) >= 128
+    signed = chamfer_distance(~inside) - chamfer_distance(inside)
+    sdf = np.clip(128.0 + signed * 42.0, 0, 255).astype(np.uint8)
+    return Image.fromarray(sdf, mode="L"), {
+        "m_Width": float(width),
+        "m_Height": float(height),
+        "m_HorizontalBearingX": float(left),
+        "m_HorizontalBearingY": float(-top),
+        "m_HorizontalAdvance": float(font.getlength(character)),
+    }
+
+
+def pack_glyphs(glyphs: list[tuple[int, Image.Image, dict[str, float]]], width: int) -> tuple[list[tuple[int, int]], int]:
+    gutter = 6
+    positions: list[tuple[int, int]] = []
+    x = y = row_height = 0
+    for _codepoint, image, _metrics in glyphs:
+        if x and x + image.width > width:
+            x = 0
+            y += row_height + gutter
+            row_height = 0
+        if image.width > width:
+            raise ValueError("Glif jest szerszy niż obszar przeznaczony na poprawkę.")
+        positions.append((x, y))
+        x += image.width + gutter
+        row_height = max(row_height, image.height)
+    return positions, y + row_height
+
+
+def find_free_atlas_region(
+    tree: dict[str, Any], glyphs: list[tuple[int, Image.Image, dict[str, float]]]
+) -> tuple[int, int, list[tuple[int, int]]]:
+    atlas_width = int(tree["m_AtlasWidth"])
+    atlas_height = int(tree["m_AtlasHeight"])
+    occupied = np.zeros((atlas_height, atlas_width), dtype=np.uint8)
+    for rect in tree.get("m_UsedGlyphRects", []):
+        x = max(0, int(rect["m_X"]))
+        y = max(0, int(rect["m_Y"]))
+        right = min(atlas_width, x + max(0, int(rect["m_Width"])))
+        top = min(atlas_height, y + max(0, int(rect["m_Height"])))
+        occupied[y:top, x:right] = 1
+
+    integral = occupied.cumsum(axis=0, dtype=np.uint32)
+    integral.cumsum(axis=1, dtype=np.uint32, out=integral)
+    padded = np.pad(integral, ((1, 0), (1, 0)), mode="constant")
+    for patch_width in (192, 256, 384, 512, 768, 1024):
+        if patch_width >= atlas_width:
+            continue
+        positions, patch_height = pack_glyphs(glyphs, patch_width)
+        if patch_height >= atlas_height:
+            continue
+        sums = (
+            padded[patch_height:, patch_width:]
+            - padded[:-patch_height, patch_width:]
+            - padded[patch_height:, :-patch_width]
+            + padded[:-patch_height, :-patch_width]
+        )
+        free = sums == 0
+        for y in range(free.shape[0] - 1, -1, -1):
+            xs = np.flatnonzero(free[y])
+            if xs.size:
+                return int(xs[-1]), y, positions
+    raise ValueError("Brak wolnego miejsca w atlasie UI_Font_Chinese na polskie glify.")
+
+
+def find_system_font() -> Path:
+    windows = Path(os.environ.get("WINDIR", r"C:\Windows"))
+    for name in ("arialbd.ttf", "arial.ttf", "segoeuib.ttf", "segoeui.ttf"):
+        candidate = windows / "Fonts" / name
+        if candidate.is_file():
+            return candidate
+    raise FileNotFoundError("Nie znaleziono systemowego fontu Arial ani Segoe UI.")
+
+
+def build_dynamic_font_patch(
+    asset_path: Path, texture_path: Path, output_dir: Path
+) -> tuple[Path, Path]:
+    asset_env = UnityPy.load(str(asset_path))
+    texture_env = UnityPy.load(str(texture_path))
+    font_obj, tree = find_font_tree(asset_env, FONT_ASSET_NAME)
+    texture = find_font_texture(texture_env, FONT_TEXTURE_NAME)
+    atlas = texture.image.convert("RGBA")
+    atlas_width = int(tree["m_AtlasWidth"])
+    atlas_height = int(tree["m_AtlasHeight"])
+    if atlas.size != (atlas_width, atlas_height):
+        raise ValueError(
+            f"Niezgodny rozmiar atlasu fontu: {atlas.size} zamiast {(atlas_width, atlas_height)}"
+        )
+
+    existing = {int(entry["m_Unicode"]) for entry in tree["m_CharacterTable"]}
+    missing = [codepoint for codepoint in POLISH_CODEPOINTS if codepoint not in existing]
+    if not missing:
+        raise ValueError("Font zawiera już wszystkie polskie glify.")
+
+    font = ImageFont.truetype(
+        str(find_system_font()), size=int(tree["m_FaceInfo"]["m_PointSize"])
+    )
+    glyphs = [(codepoint, *render_sdf(font, chr(codepoint))) for codepoint in missing]
+    origin_x, origin_y, positions = find_free_atlas_region(tree, glyphs)
+    next_index = max(int(entry["m_Index"]) for entry in tree["m_GlyphTable"]) + 1
+    new_rects: list[dict[str, int]] = []
+
+    for (codepoint, glyph_image, metrics), (local_x, local_y) in zip(glyphs, positions):
+        x = origin_x + local_x
+        y = origin_y + local_y
+        rgba = Image.new("RGBA", glyph_image.size, (0, 0, 0, 0))
+        rgba.putalpha(glyph_image)
+        atlas.paste(rgba, (x, atlas_height - y - glyph_image.height))
+        rect = {
+            "m_X": x,
+            "m_Y": y,
+            "m_Width": glyph_image.width,
+            "m_Height": glyph_image.height,
+        }
+        tree["m_GlyphTable"].append(
+            {
+                "m_Index": next_index,
+                "m_Metrics": metrics,
+                "m_GlyphRect": rect,
+                "m_Scale": 1.0,
+                "m_AtlasIndex": 0,
+                "m_ClassDefinitionType": 0,
+            }
+        )
+        tree["m_CharacterTable"].append(
+            {
+                "m_ElementType": 1,
+                "m_Unicode": codepoint,
+                "m_GlyphIndex": next_index,
+                "m_Scale": 1.0,
+            }
+        )
+        new_rects.append(rect)
+        next_index += 1
+
+    tree["m_UsedGlyphRects"].extend(new_rects)
+    tree["m_FreeGlyphRects"] = []
+    font_obj.save_typetree(tree)
+    texture.set_image(atlas, target_format=1, mipmap_count=1)
+    texture.save()
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_asset = output_dir / asset_path.name
+    output_texture = output_dir / texture_path.name
+    output_asset.write_bytes(asset_env.file.save(packer="original"))
+    output_texture.write_bytes(texture_env.file.save(packer="original"))
+    if missing_polish_codepoints(output_asset):
+        raise ValueError("Nie wszystkie polskie glify zapisano w wygenerowanym foncie.")
+    find_font_texture(UnityPy.load(str(output_texture)), FONT_TEXTURE_NAME)
+    return output_asset, output_texture
 
 
 def load_json_bytes(data: bytes) -> Any:
@@ -619,25 +889,24 @@ def install(game_dir: Path) -> dict[str, Any]:
     embedded, embedded_ai = load_embedded_polish()
     backup: Path | None = None
     summaries: list[dict[str, Any]] = []
-    font_files: list[tuple[Path, Path, str]] = []
-    font_resource_dir = resource_dir() / "font_patch_main"
-    for relative, metadata in FONT_BUNDLES.items():
-        target = game_dir / relative
-        source = font_resource_dir / metadata["resource"]
-        if not target.is_file() or not source.is_file():
-            raise FileNotFoundError(f"Brakuje pliku fontu: {target}")
-        current_md5 = md5_file(target)
-        if current_md5 not in {metadata["original_md5"], metadata["patched_md5"]}:
-            raise RuntimeError(
-                "Pliki fontu pochodzą z innej wersji Aniimo. "
-                "Potrzebna jest aktualizacja instalatora."
-            )
-        if md5_file(source) != metadata["patched_md5"]:
-            raise ValueError(f"Wbudowana poprawka fontu jest uszkodzona: {source.name}")
-        font_files.append((source, target, metadata["patched_md5"]))
+    font_asset, font_texture = find_font_bundles(game_dir)
+    font_targets = [font_asset, font_texture]
+    font_missing = missing_polish_codepoints(font_asset)
 
     with tempfile.TemporaryDirectory(prefix="aniimo-pl-") as temp_name:
         temp = Path(temp_name)
+        font_files: list[tuple[Path, Path, str]] = []
+        if font_missing:
+            print("Przygotowywanie poprawki polskich znaków dla bieżącej wersji gry...")
+            staged_asset, staged_texture = build_dynamic_font_patch(
+                font_asset, font_texture, temp / "font"
+            )
+            font_files.extend(
+                [
+                    (staged_asset, font_asset, md5_file(staged_asset)),
+                    (staged_texture, font_texture, md5_file(staged_texture)),
+                ]
+            )
         staged: list[tuple[Path, Path, Path, Path]] = []
         first_target_pool: bytes | None = None
         for index, (source_xdf, source_xdt) in enumerate(pairs):
@@ -673,7 +942,9 @@ def install(game_dir: Path) -> dict[str, Any]:
         )
 
         if not identical:
-            backup = make_backup(game_dir, pairs, [target for _source, target, _md5 in font_files])
+            backup = make_backup(
+                game_dir, pairs, [target for _source, target, _md5 in font_files]
+            )
         try:
             if not identical:
                 for output_xdf, output_xdt, target_xdf, target_xdt in staged:
@@ -713,7 +984,8 @@ def install(game_dir: Path) -> dict[str, Any]:
         "changed": not identical,
         "target_slot": TARGET_SLOT,
         "display_name": DISPLAY_NAME,
-        "font_patch": [str(target.relative_to(game_dir)) for _source, target, _md5 in font_files],
+        "font_patch": [str(target.relative_to(game_dir)) for target in font_targets],
+        "font_generated": bool(font_files),
         "archives": summaries,
     }
     work = user_work_dir()
@@ -733,13 +1005,18 @@ def check_install(game_dir: Path) -> bool:
         except Exception as exc:
             ok = False
             print(f"[BRAK] {xdf}: {exc}")
-    for relative, metadata in FONT_BUNDLES.items():
-        target = game_dir / relative
-        if target.is_file() and md5_file(target) == metadata["patched_md5"]:
-            print(f"[OK] {target}")
-        else:
+    try:
+        asset, texture = find_font_bundles(game_dir)
+        missing = missing_polish_codepoints(asset)
+        if missing:
             ok = False
-            print(f"[BRAK] Poprawka polskich znaków: {target}")
+            print(f"[BRAK] Poprawka polskich znaków: {asset}")
+        else:
+            print(f"[OK] {asset}")
+            print(f"[OK] {texture}")
+    except Exception as exc:
+        ok = False
+        print(f"[BRAK] Poprawka polskich znaków: {exc}")
     return ok
 
 
@@ -780,7 +1057,7 @@ def main() -> int:
             pause_if_needed(args.no_pause)
             return 0
 
-        print("Instalowanie języka polskiego...")
+        print("Instalowanie języka POLSKI. English pozostaje bez zmian...")
         result = install(game_dir)
         if result["changed"]:
             print("\n[OK] Spolszczenie zostało zainstalowane i zweryfikowane.")
@@ -788,7 +1065,7 @@ def main() -> int:
             print("\n[OK] Spolszczenie jest już aktualne; pliki nie wymagały zmian.")
         if result["backup"]:
             print(f"Backup: {result['backup']}")
-        print("W grze wybierz pozycję Polski w ustawieniach języka.")
+        print("W grze wybierz pozycję POLSKI w ustawieniach języka.")
         print("Technicznie używany jest slot vi_VN; język wietnamski zostaje zastąpiony.")
         pause_if_needed(args.no_pause)
         return 0
