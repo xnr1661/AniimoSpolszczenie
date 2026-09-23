@@ -12,10 +12,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 89727699,
-    "workflow_state": "sent_translation"
-  },
-  {
     "id": 93849475,
     "workflow_state": "no_translation"
   },
@@ -94,6 +90,10 @@
   {
     "id": 296116284,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 296237158,
+    "workflow_state": "source_draft"
   },
   {
     "id": 301513442,
@@ -230,6 +230,10 @@
   {
     "id": 378925501,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 379215567,
+    "workflow_state": "source_draft"
   },
   {
     "id": 379999100,
@@ -424,6 +428,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 489739520,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 490928182,
     "workflow_state": "no_translation"
   },
@@ -438,6 +446,10 @@
   {
     "id": 495362250,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 495870995,
+    "workflow_state": "source_draft"
   },
   {
     "id": 498297087,
@@ -492,6 +504,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 526441920,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 527118581,
     "workflow_state": "no_translation"
   },
@@ -540,20 +556,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1074743548,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1074890594,
     "workflow_state": "no_translation"
   },
   {
     "id": 1075012077,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1075101754,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1075103489,
@@ -612,10 +620,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1076712050,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1076973473,
     "workflow_state": "no_translation"
   },
@@ -634,6 +638,10 @@
   {
     "id": 1077455618,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1077478733,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1077492029,
@@ -706,10 +714,6 @@
   {
     "id": 1078788890,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1078925566,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1078963859,
@@ -1028,16 +1032,16 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1086991371,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1087139224,
     "workflow_state": "no_translation"
   },
   {
     "id": 1087609186,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1087679361,
+    "workflow_state": "source_finalized"
   },
   {
     "id": 1087704539,
@@ -1100,10 +1104,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1089040692,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1089048551,
     "workflow_state": "no_translation"
   },
@@ -1142,10 +1142,6 @@
   {
     "id": 1090125640,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1090259010,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1090309285,
@@ -1224,20 +1220,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1092047781,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1092064366,
     "workflow_state": "no_translation"
   },
   {
     "id": 1092219108,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1092376121,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1092503674,
@@ -1314,10 +1302,6 @@
   {
     "id": 1094520665,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1094697324,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1094970491,
@@ -1592,10 +1576,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1101267076,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1101367216,
     "workflow_state": "no_translation"
   },
@@ -1628,10 +1608,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1101866909,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1101941223,
     "workflow_state": "no_translation"
   },
@@ -1654,10 +1630,6 @@
   {
     "id": 1102189011,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1102247338,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1102340729,
@@ -1788,6 +1760,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1104856835,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 1104904976,
     "workflow_state": "no_translation"
   },
@@ -1840,16 +1816,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1106450819,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1106628479,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1106653905,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1106711864,
@@ -1858,10 +1826,6 @@
   {
     "id": 1106756727,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1106836295,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1106851006,
@@ -1896,8 +1860,16 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1107387973,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 1107409825,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1107423120,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1107440572,
@@ -1978,10 +1950,6 @@
   {
     "id": 1108954843,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1109075226,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1109338268,
@@ -2096,10 +2064,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1112270746,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1112383260,
     "workflow_state": "no_translation"
   },
@@ -2188,10 +2152,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1114132654,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1114220208,
     "workflow_state": "no_translation"
   },
@@ -2224,10 +2184,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1115134124,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1115293542,
     "workflow_state": "no_translation"
   },
@@ -2238,10 +2194,6 @@
   {
     "id": 1115356231,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1115369155,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1115384589,
@@ -2260,20 +2212,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1115775224,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1115874001,
     "workflow_state": "no_translation"
   },
   {
     "id": 1116154756,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1116163789,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1116210736,
@@ -2298,6 +2242,10 @@
   {
     "id": 1116582762,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1116630769,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1116868915,
@@ -2396,28 +2344,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1119190074,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1119317435,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1119469067,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1119606006,
     "workflow_state": "no_translation"
   },
   {
     "id": 1119925112,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1119959780,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1120042476,
@@ -2470,10 +2402,6 @@
   {
     "id": 1121154912,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1121254374,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1121292976,
@@ -2532,10 +2460,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1122568819,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1122998987,
     "workflow_state": "no_translation"
   },
@@ -2568,10 +2492,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1123499066,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1123509901,
     "workflow_state": "no_translation"
   },
@@ -2582,10 +2502,6 @@
   {
     "id": 1123606486,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1123610972,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1123630591,
@@ -2676,16 +2592,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1126282939,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1126386463,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1126455768,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1126567401,
@@ -2726,10 +2634,6 @@
   {
     "id": 1127209272,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1127327505,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1127391815,
@@ -2818,10 +2722,6 @@
   {
     "id": 1128794827,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1128835299,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1128854284,
@@ -2952,10 +2852,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1131310038,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1131448390,
     "workflow_state": "no_translation"
   },
@@ -3080,10 +2976,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1134549964,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1134642695,
     "workflow_state": "no_translation"
   },
@@ -3128,10 +3020,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1135356918,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1135662911,
     "workflow_state": "no_translation"
   },
@@ -3142,10 +3030,6 @@
   {
     "id": 1135810172,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1135839720,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1135929422,
@@ -3214,10 +3098,6 @@
   {
     "id": 1137215453,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1137428831,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1137466486,
@@ -3292,6 +3172,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1139318123,
+    "workflow_state": "source_finalized"
+  },
+  {
     "id": 1139432558,
     "workflow_state": "no_translation"
   },
@@ -3326,10 +3210,6 @@
   {
     "id": 1139745004,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1139825331,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1139876991,
@@ -3434,6 +3314,10 @@
   {
     "id": 1142735101,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1142870367,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1143076386,
@@ -3616,10 +3500,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1148212498,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1148247109,
     "workflow_state": "no_translation"
   },
@@ -3650,10 +3530,6 @@
   {
     "id": 1148827796,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1148881294,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1148930267,
@@ -3688,10 +3564,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1149539833,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1149753245,
     "workflow_state": "no_translation"
   },
@@ -3714,6 +3586,10 @@
   {
     "id": 1150010128,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1150023091,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1150178592,
@@ -3800,14 +3676,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1152351888,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1152421368,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1152434896,
     "workflow_state": "no_translation"
   },
@@ -3870,10 +3738,6 @@
   {
     "id": 1153510738,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1153630668,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1153808437,
@@ -3964,10 +3828,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1156692387,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1156851925,
     "workflow_state": "no_translation"
   },
@@ -3996,10 +3856,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1157703654,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1157720887,
     "workflow_state": "no_translation"
   },
@@ -4010,10 +3866,6 @@
   {
     "id": 1157766323,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1157801633,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1157949113,
@@ -4164,10 +4016,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1162061968,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1162078037,
     "workflow_state": "no_translation"
   },
@@ -4292,10 +4140,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1164331477,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1164339318,
     "workflow_state": "no_translation"
   },
@@ -4326,10 +4170,6 @@
   {
     "id": 1164795346,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1164923523,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1164969357,
@@ -4380,10 +4220,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1165779935,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1165911781,
     "workflow_state": "no_translation"
   },
@@ -4414,10 +4250,6 @@
   {
     "id": 1166512391,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1166611570,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1166630098,
@@ -4454,10 +4286,6 @@
   {
     "id": 1167184354,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1167252496,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1167369090,
@@ -4534,10 +4362,6 @@
   {
     "id": 1169082435,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1169183875,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1169249850,
@@ -4669,7 +4493,7 @@
   },
   {
     "id": 1172906815,
-    "workflow_state": "source_finalized"
+    "workflow_state": "source_draft"
   },
   {
     "id": 1173000732,
@@ -4732,10 +4556,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1174188477,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1174249033,
     "workflow_state": "no_translation"
   },
@@ -4774,10 +4594,6 @@
   {
     "id": 1175138217,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1175250562,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1175271943,
@@ -4860,10 +4676,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1177140416,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1177254858,
     "workflow_state": "no_translation"
   },
@@ -4894,10 +4706,6 @@
   {
     "id": 1177755272,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1177770986,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1177927492,
@@ -4944,10 +4752,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1178944506,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1179181460,
     "workflow_state": "no_translation"
   },
@@ -4970,14 +4774,6 @@
   {
     "id": 1179595925,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1179627486,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1179654451,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1179668504,
@@ -5016,10 +4812,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1180438957,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1180448149,
     "workflow_state": "no_translation"
   },
@@ -5038,6 +4830,10 @@
   {
     "id": 1180667629,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1180667776,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1180777315,
@@ -5096,10 +4892,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1182337173,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1182364627,
     "workflow_state": "no_translation"
   },
@@ -5114,10 +4906,6 @@
   {
     "id": 1182442399,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1182665865,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1182691494,
@@ -5296,16 +5084,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1188134287,
-    "workflow_state": "source_finalized"
+    "id": 1188158167,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1188220838,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1188266461,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1188270969,
@@ -5476,10 +5260,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1192930633,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1192973387,
     "workflow_state": "no_translation"
   },
@@ -5560,10 +5340,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1194758537,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1194945421,
     "workflow_state": "no_translation"
   },
@@ -5574,10 +5350,6 @@
   {
     "id": 1195261558,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1195285676,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1195671260,
@@ -5602,10 +5374,6 @@
   {
     "id": 1196678954,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1196747678,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1196785478,
@@ -5692,10 +5460,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1198315247,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1198345501,
     "workflow_state": "no_translation"
   },
@@ -5754,10 +5518,6 @@
   {
     "id": 1200367976,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1200630680,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1200759246,
@@ -5980,10 +5740,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1205057391,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1205074666,
     "workflow_state": "no_translation"
   },
@@ -6060,10 +5816,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1207845732,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1207885729,
     "workflow_state": "no_translation"
   },
@@ -6074,6 +5826,10 @@
   {
     "id": 1208052647,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1208053902,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1208091418,
@@ -6090,10 +5846,6 @@
   {
     "id": 1208554961,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1208564491,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1208814897,
@@ -6136,10 +5888,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1210180455,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1210181091,
     "workflow_state": "no_translation"
   },
@@ -6174,10 +5922,6 @@
   {
     "id": 1210995270,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1211051318,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1211190633,
@@ -6306,10 +6050,6 @@
   {
     "id": 1214486579,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1214760526,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1214787398,
@@ -6536,10 +6276,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1220349453,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1220372852,
     "workflow_state": "no_translation"
   },
@@ -6624,10 +6360,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1222129931,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1222162326,
     "workflow_state": "no_translation"
   },
@@ -6646,10 +6378,6 @@
   {
     "id": 1222484034,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1222518332,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1222758180,
@@ -6690,10 +6418,6 @@
   {
     "id": 1223535984,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1223624061,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1223684682,
@@ -6808,14 +6532,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1226426493,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1226459316,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1226523427,
     "workflow_state": "no_translation"
   },
@@ -6826,10 +6542,6 @@
   {
     "id": 1226818368,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1226821620,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1226850654,
@@ -6846,6 +6558,10 @@
   {
     "id": 1227251561,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1227372556,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1227388436,
@@ -6932,10 +6648,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1229041216,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1229075562,
     "workflow_state": "no_translation"
   },
@@ -6954,10 +6666,6 @@
   {
     "id": 1229516301,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1229873592,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1229887217,
@@ -7096,10 +6804,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1233942548,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1233995120,
     "workflow_state": "no_translation"
   },
@@ -7212,10 +6916,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1236073249,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1236139251,
     "workflow_state": "no_translation"
   },
@@ -7230,10 +6930,6 @@
   {
     "id": 1236354642,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1236374708,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1236400581,
@@ -7328,16 +7024,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1238900868,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1238931934,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1238937410,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1239103410,
@@ -7440,10 +7128,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1240950024,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1240952550,
     "workflow_state": "no_translation"
   },
@@ -7454,10 +7138,6 @@
   {
     "id": 1241303242,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1241323712,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1241394995,
@@ -7776,10 +7456,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1249599203,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1249705754,
     "workflow_state": "no_translation"
   },
@@ -7810,6 +7486,10 @@
   {
     "id": 1250714839,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1250839666,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1250844183,
@@ -7956,10 +7636,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1253568703,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1253615315,
     "workflow_state": "no_translation"
   },
@@ -7990,10 +7666,6 @@
   {
     "id": 1254939921,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1255057943,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1255173920,
@@ -8038,10 +7710,6 @@
   {
     "id": 1256244752,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1256522291,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1256545011,
@@ -8126,6 +7794,10 @@
   {
     "id": 1258510656,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1258612437,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1258639409,
@@ -8296,6 +7968,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1262329944,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 1262402835,
     "workflow_state": "no_translation"
   },
@@ -8328,10 +8004,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1262631900,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1262694692,
     "workflow_state": "no_translation"
   },
@@ -8362,10 +8034,6 @@
   {
     "id": 1263432217,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1263529100,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1263559029,
@@ -8410,10 +8078,6 @@
   {
     "id": 1264066647,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1264137205,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1264138403,
@@ -8482,10 +8146,6 @@
   {
     "id": 1265714473,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1265724861,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1266188685,
@@ -8642,10 +8302,6 @@
   {
     "id": 1269490096,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1269559274,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1269567124,
@@ -8952,10 +8608,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1276665615,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1276671644,
     "workflow_state": "no_translation"
   },
@@ -9092,10 +8744,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1280111725,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1280171038,
     "workflow_state": "no_translation"
   },
@@ -9126,10 +8774,6 @@
   {
     "id": 1280556492,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1280591359,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1280633198,
@@ -9212,10 +8856,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1281989645,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1282355083,
     "workflow_state": "no_translation"
   },
@@ -9244,10 +8884,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1283219231,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1283295832,
     "workflow_state": "no_translation"
   },
@@ -9268,20 +8904,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1283861524,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1284001515,
     "workflow_state": "no_translation"
   },
   {
     "id": 1284174731,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1284208862,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1284223363,
@@ -9350,10 +8978,6 @@
   {
     "id": 1285741548,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1285782709,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1285997734,
@@ -9448,14 +9072,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1287614038,
-    "workflow_state": "source_draft"
-  },
-  {
-    "id": 1287641747,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1287679888,
     "workflow_state": "no_translation"
   },
@@ -9484,10 +9100,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1288394903,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1288612530,
     "workflow_state": "no_translation"
   },
@@ -9496,20 +9108,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1288677175,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1288679349,
     "workflow_state": "no_translation"
   },
   {
     "id": 1288724113,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1288745376,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1288872128,
@@ -9586,10 +9190,6 @@
   {
     "id": 1290776370,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1290814616,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1290857332,
@@ -9672,10 +9272,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1292493659,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1292525974,
     "workflow_state": "no_translation"
   },
@@ -9694,10 +9290,6 @@
   {
     "id": 1292897986,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1292921359,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1293154023,
@@ -9848,10 +9440,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1296781559,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1296844875,
     "workflow_state": "no_translation"
   },
@@ -9866,6 +9454,10 @@
   {
     "id": 1297032355,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1297105769,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1297151692,
@@ -9966,10 +9558,6 @@
   {
     "id": 1300139985,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1300203300,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1300305076,
@@ -10128,20 +9716,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1303238928,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1303374078,
     "workflow_state": "no_translation"
   },
   {
     "id": 1303380302,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1303403143,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1303502047,
@@ -10180,14 +9760,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1304529355,
-    "workflow_state": "source_draft"
-  },
-  {
-    "id": 1305328796,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1305465392,
     "workflow_state": "no_translation"
   },
@@ -10222,10 +9794,6 @@
   {
     "id": 1306385295,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1306475282,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1306741962,
@@ -10336,10 +9904,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1308751485,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1308776443,
     "workflow_state": "no_translation"
   },
@@ -10400,10 +9964,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1309859113,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1310239089,
     "workflow_state": "no_translation"
   },
@@ -10420,16 +9980,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1310422368,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1310521794,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1310541226,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1310651544,
@@ -10482,10 +10034,6 @@
   {
     "id": 1311553479,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1311602900,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1311623730,
@@ -10552,10 +10100,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1312389636,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1312496118,
     "workflow_state": "no_translation"
   },
@@ -10572,10 +10116,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1312810660,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1312995842,
     "workflow_state": "no_translation"
   },
@@ -10590,10 +10130,6 @@
   {
     "id": 1313318983,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1313487079,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1313617030,
@@ -10638,10 +10174,6 @@
   {
     "id": 1314364913,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1314398001,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1314423082,
@@ -10832,20 +10364,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1319210339,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1319273318,
     "workflow_state": "no_translation"
   },
   {
     "id": 1319306067,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1319350007,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1319396382,
@@ -10864,16 +10388,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1319975599,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1320156230,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1320240521,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1320358047,
@@ -11108,10 +10624,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1324949129,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1324971600,
     "workflow_state": "no_translation"
   },
@@ -11194,10 +10706,6 @@
   {
     "id": 1327529159,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1327651985,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1327846577,
@@ -11310,10 +10818,6 @@
   {
     "id": 1330279049,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1330336348,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1330344334,
@@ -11700,14 +11204,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1337086437,
-    "workflow_state": "no_translation"
-  },
-  {
-    "id": 1337149535,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1337165120,
     "workflow_state": "no_translation"
   },
@@ -11880,10 +11376,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1341908793,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1341953838,
     "workflow_state": "no_translation"
   },
@@ -11912,10 +11404,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1342352604,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1342406606,
     "workflow_state": "no_translation"
   },
@@ -11934,10 +11422,6 @@
   {
     "id": 1342879843,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1342897919,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1343208722,
@@ -11986,14 +11470,6 @@
   {
     "id": 1344146333,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1344286020,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1344296859,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1344308026,
@@ -12094,10 +11570,6 @@
   {
     "id": 1346131059,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1346151543,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1346307996,
@@ -12240,8 +11712,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1349488811,
-    "workflow_state": "source_finalized"
+    "id": 1349528611,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1349551916,
@@ -12336,10 +11808,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1351474339,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1351733933,
     "workflow_state": "no_translation"
   },
@@ -12358,10 +11826,6 @@
   {
     "id": 1352121801,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1352138958,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1352287930,
@@ -12840,10 +12304,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1363336712,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1363348993,
     "workflow_state": "no_translation"
   },
@@ -12870,10 +12330,6 @@
   {
     "id": 1363996538,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1364310058,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1364322914,
@@ -12936,6 +12392,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1366314665,
+    "workflow_state": "source_finalized"
+  },
+  {
     "id": 1366380478,
     "workflow_state": "no_translation"
   },
@@ -12946,10 +12406,6 @@
   {
     "id": 1367064754,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1367195068,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1367259606,
@@ -12970,10 +12426,6 @@
   {
     "id": 1367724174,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1367811130,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1367936501,
@@ -13014,14 +12466,6 @@
   {
     "id": 1368673924,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1368719086,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1368745646,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1368759563,
@@ -13150,10 +12594,6 @@
   {
     "id": 1371168726,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1371235383,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1371361459,
@@ -13324,10 +12764,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1375439281,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1375528974,
     "workflow_state": "no_translation"
   },
@@ -13440,24 +12876,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1378227929,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1378291674,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1378354532,
     "workflow_state": "no_translation"
   },
   {
     "id": 1378396366,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1378559679,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1378663386,
@@ -13500,10 +12924,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1379459828,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1379498884,
     "workflow_state": "no_translation"
   },
@@ -13526,10 +12946,6 @@
   {
     "id": 1380212278,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1380354187,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1380423441,
@@ -13558,10 +12974,6 @@
   {
     "id": 1381231468,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1381232430,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1381277121,
@@ -13594,10 +13006,6 @@
   {
     "id": 1381967439,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1381982566,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1382032367,
@@ -13712,10 +13120,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1383955684,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1383963415,
     "workflow_state": "no_translation"
   },
@@ -13766,6 +13170,10 @@
   {
     "id": 1385635373,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1385647580,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1385686337,
@@ -13840,6 +13248,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1387375580,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 1387423535,
     "workflow_state": "no_translation"
   },
@@ -13860,16 +13272,16 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1387790073,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1387816130,
     "workflow_state": "no_translation"
   },
   {
     "id": 1387881723,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1387985170,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1387998022,
@@ -13894,6 +13306,10 @@
   {
     "id": 1388216377,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1388427975,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1388534588,
@@ -13972,10 +13388,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1390054184,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1390116558,
     "workflow_state": "no_translation"
   },
@@ -14042,10 +13454,6 @@
   {
     "id": 1391526186,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1392047286,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1392325681,
@@ -14132,10 +13540,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1393755852,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1393784600,
     "workflow_state": "no_translation"
   },
@@ -14188,10 +13592,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1394543187,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1394639078,
     "workflow_state": "no_translation"
   },
@@ -14218,10 +13618,6 @@
   {
     "id": 1395397770,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1395655169,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1395920515,
@@ -14356,10 +13752,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1398705274,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1398870390,
     "workflow_state": "no_translation"
   },
@@ -14454,10 +13846,6 @@
   {
     "id": 1401363890,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1401458356,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1401469956,
@@ -14564,10 +13952,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1403973523,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1404365822,
     "workflow_state": "no_translation"
   },
@@ -14672,10 +14056,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1407576289,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1407660585,
     "workflow_state": "no_translation"
   },
@@ -14760,10 +14140,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1409903672,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1410031923,
     "workflow_state": "no_translation"
   },
@@ -14774,10 +14150,6 @@
   {
     "id": 1410488333,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1410535484,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1410671181,
@@ -14794,10 +14166,6 @@
   {
     "id": 1410867927,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1410967860,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1411146629,
@@ -14956,10 +14324,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1414093764,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1414110716,
     "workflow_state": "no_translation"
   },
@@ -15024,20 +14388,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1415717304,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1415920912,
     "workflow_state": "no_translation"
   },
   {
     "id": 1415922192,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1416034908,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1416066729,
@@ -15078,10 +14434,6 @@
   {
     "id": 1417333479,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1417373420,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1417504598,
@@ -15136,10 +14488,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1418775016,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1418786389,
     "workflow_state": "no_translation"
   },
@@ -15180,10 +14528,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1419775279,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1419953082,
     "workflow_state": "no_translation"
   },
@@ -15220,10 +14564,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1421018118,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1421031211,
     "workflow_state": "no_translation"
   },
@@ -15242,10 +14582,6 @@
   {
     "id": 1421217902,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1421239782,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1421321510,
@@ -15336,10 +14672,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1423866361,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1423869725,
     "workflow_state": "no_translation"
   },
@@ -15389,11 +14721,7 @@
   },
   {
     "id": 1425087932,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1425263367,
-    "workflow_state": "source_finalized"
+    "workflow_state": "source_draft"
   },
   {
     "id": 1425339448,
@@ -15402,10 +14730,6 @@
   {
     "id": 1425435734,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1425508530,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1425847498,
@@ -15538,10 +14862,6 @@
   {
     "id": 1430976688,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1431083082,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1431109961,
@@ -15908,10 +15228,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1439407319,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1439747415,
     "workflow_state": "no_translation"
   },
@@ -15968,10 +15284,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1440561642,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1440591616,
     "workflow_state": "no_translation"
   },
@@ -16000,10 +15312,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1441095978,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1441243068,
     "workflow_state": "no_translation"
   },
@@ -16029,10 +15337,6 @@
   },
   {
     "id": 1441488806,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1441658100,
     "workflow_state": "source_draft"
   },
   {
@@ -16046,10 +15350,6 @@
   {
     "id": 1441925826,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1441926326,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1441949275,
@@ -16132,14 +15432,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1443516182,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1443726262,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1443759218,
     "workflow_state": "no_translation"
   },
@@ -16204,20 +15496,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1445567575,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1445619365,
     "workflow_state": "no_translation"
   },
   {
     "id": 1445657226,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1445814434,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1445856693,
@@ -16262,10 +15546,6 @@
   {
     "id": 1446536946,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1446623376,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1446657495,
@@ -16392,24 +15672,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1449510172,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1449612547,
     "workflow_state": "no_translation"
   },
   {
-    "id": 1449716019,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1449864711,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1450079690,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1450129741,
@@ -16576,10 +15844,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1453626141,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1453673818,
     "workflow_state": "no_translation"
   },
@@ -16606,10 +15870,6 @@
   {
     "id": 1453996756,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1454003734,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1454024844,
@@ -16820,10 +16080,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1457992862,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1458042798,
     "workflow_state": "no_translation"
   },
@@ -16878,10 +16134,6 @@
   {
     "id": 1459142838,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1459203874,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1459401854,
@@ -17308,10 +16560,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1469187739,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1469208971,
     "workflow_state": "no_translation"
   },
@@ -17418,10 +16666,6 @@
   {
     "id": 1471167901,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1471366156,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1471431257,
@@ -17648,10 +16892,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1477287685,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1477331176,
     "workflow_state": "no_translation"
   },
@@ -17694,14 +16934,6 @@
   {
     "id": 1478657978,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1478749828,
-    "workflow_state": "source_draft"
-  },
-  {
-    "id": 1478802552,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1478892748,
@@ -17772,10 +17004,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1480395705,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1480437089,
     "workflow_state": "no_translation"
   },
@@ -17824,10 +17052,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1481432948,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1481433029,
     "workflow_state": "no_translation"
   },
@@ -17858,10 +17082,6 @@
   {
     "id": 1482016600,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1482070266,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1482234265,
@@ -17898,10 +17118,6 @@
   {
     "id": 1482617364,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1482655121,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1482802612,
@@ -18078,10 +17294,6 @@
   {
     "id": 1486194029,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1486241402,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1486319859,
@@ -18456,14 +17668,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1494290660,
-    "workflow_state": "source_draft"
-  },
-  {
-    "id": 1494290775,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1494371343,
     "workflow_state": "no_translation"
   },
@@ -18509,7 +17713,7 @@
   },
   {
     "id": 1495711670,
-    "workflow_state": "no_translation"
+    "workflow_state": "source_finalized"
   },
   {
     "id": 1495791791,
@@ -18568,10 +17772,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1497100031,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1497100746,
     "workflow_state": "no_translation"
   },
@@ -18608,10 +17808,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1498000101,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1498199450,
     "workflow_state": "no_translation"
   },
@@ -18644,10 +17840,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1499095148,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1499164489,
     "workflow_state": "no_translation"
   },
@@ -18676,10 +17868,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1500258249,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1500292196,
     "workflow_state": "no_translation"
   },
@@ -18704,16 +17892,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1500791297,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1500946390,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1501387729,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1501415169,
@@ -18896,16 +18076,16 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1505151352,
+    "workflow_state": "source_finalized"
+  },
+  {
     "id": 1505240835,
     "workflow_state": "no_translation"
   },
   {
     "id": 1505257993,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1505291261,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1505342539,
@@ -18945,11 +18125,7 @@
   },
   {
     "id": 1506239390,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1506378462,
-    "workflow_state": "source_finalized"
+    "workflow_state": "source_draft"
   },
   {
     "id": 1506458556,
@@ -18994,10 +18170,6 @@
   {
     "id": 1506877605,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1506905680,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1507000556,
@@ -19156,24 +18328,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1510349805,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1510383433,
     "workflow_state": "no_translation"
   },
   {
-    "id": 1510536270,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1510847278,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1511010034,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1511023370,
@@ -19276,10 +18436,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1513586857,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1513683138,
     "workflow_state": "no_translation"
   },
@@ -19294,10 +18450,6 @@
   {
     "id": 1514105065,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1514239453,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1514323366,
@@ -19326,10 +18478,6 @@
   {
     "id": 1514868169,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1514882514,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1515160187,
@@ -19476,10 +18624,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1517814875,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1517846216,
     "workflow_state": "no_translation"
   },
@@ -19526,10 +18670,6 @@
   {
     "id": 1518434187,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1518450849,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1518469032,
@@ -19608,10 +18748,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1519914251,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1519923961,
     "workflow_state": "no_translation"
   },
@@ -19626,10 +18762,6 @@
   {
     "id": 1520200819,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1520273912,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1520519774,
@@ -19652,16 +18784,16 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1521197740,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1521388377,
     "workflow_state": "no_translation"
   },
   {
     "id": 1521408540,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1521443218,
+    "workflow_state": "source_finalized"
   },
   {
     "id": 1521516056,
@@ -19848,10 +18980,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1525621412,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1525871740,
     "workflow_state": "no_translation"
   },
@@ -19920,10 +19048,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1527201410,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1527406960,
     "workflow_state": "no_translation"
   },
@@ -19978,10 +19102,6 @@
   {
     "id": 1529155284,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1529263644,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1529349034,
@@ -20064,10 +19184,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1531118698,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1531177819,
     "workflow_state": "no_translation"
   },
@@ -20106,10 +19222,6 @@
   {
     "id": 1532040465,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1532232035,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1532553777,
@@ -20168,10 +19280,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1534612175,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1534625038,
     "workflow_state": "no_translation"
   },
@@ -20198,14 +19306,6 @@
   {
     "id": 1535074825,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1535087912,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1535117856,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1535150377,
@@ -20400,6 +19500,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1538967381,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 1538995721,
     "workflow_state": "no_translation"
   },
@@ -20442,10 +19546,6 @@
   {
     "id": 1540517547,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1540552821,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1540608945,
@@ -20748,10 +19848,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1549020646,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1549294279,
     "workflow_state": "no_translation"
   },
@@ -20790,10 +19886,6 @@
   {
     "id": 1550869476,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1550898689,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1550976994,
@@ -21000,10 +20092,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1555684327,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1555727280,
     "workflow_state": "no_translation"
   },
@@ -21112,10 +20200,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1557348167,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1557367429,
     "workflow_state": "no_translation"
   },
@@ -21130,10 +20214,6 @@
   {
     "id": 1557718282,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1557758505,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1557901394,
@@ -21188,10 +20268,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1558641514,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1558749149,
     "workflow_state": "no_translation"
   },
@@ -21242,10 +20318,6 @@
   {
     "id": 1559761626,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1559893940,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1559895093,
@@ -21380,16 +20452,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1563780698,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1563875931,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1563898864,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1563910526,
@@ -21408,20 +20472,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1564123298,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1564438807,
     "workflow_state": "no_translation"
   },
   {
     "id": 1564729800,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1564801916,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1565031145,
@@ -21438,10 +20494,6 @@
   {
     "id": 1565190737,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1565487070,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1565502318,
@@ -21540,10 +20592,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1567908508,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1567972142,
     "workflow_state": "no_translation"
   },
@@ -21565,7 +20613,7 @@
   },
   {
     "id": 1568607962,
-    "workflow_state": "source_finalized"
+    "workflow_state": "source_draft"
   },
   {
     "id": 1568647420,
@@ -21636,20 +20684,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1569848308,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1569997330,
     "workflow_state": "no_translation"
   },
   {
     "id": 1570270102,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1570290722,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1570407639,
@@ -21714,10 +20754,6 @@
   {
     "id": 1571657259,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1571808985,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1571856609,
@@ -21820,10 +20856,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1574582481,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1575028244,
     "workflow_state": "no_translation"
   },
@@ -21838,10 +20870,6 @@
   {
     "id": 1575129170,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1575150442,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1575160617,
@@ -21882,6 +20910,10 @@
   {
     "id": 1575654864,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1575742053,
+    "workflow_state": "source_finalized"
   },
   {
     "id": 1575903685,
@@ -22116,16 +21148,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1580954286,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1581047717,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1581050284,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1581291356,
@@ -22184,20 +21208,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1582456094,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1582603430,
     "workflow_state": "no_translation"
   },
   {
     "id": 1582604216,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1582653691,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1582663010,
@@ -22214,10 +21230,6 @@
   {
     "id": 1583073533,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1583244875,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1583530637,
@@ -22424,10 +21436,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1588479346,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1588652593,
     "workflow_state": "no_translation"
   },
@@ -22584,10 +21592,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1591734615,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1591773365,
     "workflow_state": "no_translation"
   },
@@ -22600,16 +21604,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1592248306,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1592304423,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1592377362,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1592508318,
@@ -22618,10 +21614,6 @@
   {
     "id": 1592514056,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1592542816,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1592639297,
@@ -22992,10 +21984,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1601207978,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1601242228,
     "workflow_state": "no_translation"
   },
@@ -23204,10 +22192,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1605057795,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1605148547,
     "workflow_state": "no_translation"
   },
@@ -23404,10 +22388,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1609903261,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1609913203,
     "workflow_state": "no_translation"
   },
@@ -23540,20 +22520,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1612773499,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1612843370,
     "workflow_state": "no_translation"
   },
   {
     "id": 1612905659,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1612911936,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1613015404,
@@ -23788,10 +22760,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1618007149,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1618092609,
     "workflow_state": "no_translation"
   },
@@ -23820,20 +22788,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1618643882,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1618674010,
     "workflow_state": "no_translation"
   },
   {
     "id": 1618802565,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1618887994,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1619025525,
@@ -23874,10 +22834,6 @@
   {
     "id": 1619789117,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1619852871,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1619954023,
@@ -23950,10 +22906,6 @@
   {
     "id": 1621224979,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1621252364,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1621427576,
@@ -24056,20 +23008,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1624905976,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1624965743,
     "workflow_state": "no_translation"
   },
   {
     "id": 1624996970,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1625054851,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1625103609,
@@ -24204,10 +23148,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1627898077,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1627900332,
     "workflow_state": "no_translation"
   },
@@ -24300,10 +23240,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1630423614,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1630656266,
     "workflow_state": "no_translation"
   },
@@ -24348,10 +23284,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1631886475,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1631983634,
     "workflow_state": "no_translation"
   },
@@ -24386,10 +23318,6 @@
   {
     "id": 1632729847,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1632761791,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1632941330,
@@ -24472,10 +23400,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1634957240,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1635178534,
     "workflow_state": "no_translation"
   },
@@ -24497,10 +23421,6 @@
   },
   {
     "id": 1635479868,
-    "workflow_state": "no_translation"
-  },
-  {
-    "id": 1635688370,
     "workflow_state": "no_translation"
   },
   {
@@ -24568,20 +23488,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1637298937,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1637323962,
     "workflow_state": "no_translation"
   },
   {
     "id": 1637360491,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1637483673,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1637574077,
@@ -24618,10 +23530,6 @@
   {
     "id": 1638646809,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1638658553,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1638871687,
@@ -24664,10 +23572,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1639551550,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1639565120,
     "workflow_state": "no_translation"
   },
@@ -24704,16 +23608,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1640570890,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1640608005,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1640723228,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1640863514,
@@ -24844,10 +23740,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1644499020,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1644623838,
     "workflow_state": "no_translation"
   },
@@ -24890,10 +23782,6 @@
   {
     "id": 1645546606,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1645664400,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1645718608,
@@ -24966,6 +23854,10 @@
   {
     "id": 1647574034,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1647949629,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1647986130,
@@ -25108,10 +24000,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1652219634,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1652300412,
     "workflow_state": "no_translation"
   },
@@ -25146,10 +24034,6 @@
   {
     "id": 1652927303,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1652996724,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1653231121,
@@ -25240,20 +24124,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1655564747,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1655595154,
     "workflow_state": "no_translation"
   },
   {
     "id": 1655907692,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1655915699,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1656026574,
@@ -25876,10 +24752,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1670928705,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1670938872,
     "workflow_state": "no_translation"
   },
@@ -25936,10 +24808,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1673705714,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1674016590,
     "workflow_state": "no_translation"
   },
@@ -25982,10 +24850,6 @@
   {
     "id": 1675611025,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1675769772,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1675808770,
@@ -26144,20 +25008,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1680284207,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1680373915,
     "workflow_state": "no_translation"
   },
   {
     "id": 1680396167,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1680424471,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1680432138,
@@ -26180,10 +25036,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1680975900,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1681003584,
     "workflow_state": "no_translation"
   },
@@ -26202,10 +25054,6 @@
   {
     "id": 1681858013,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1681969563,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1681977767,
@@ -26248,6 +25096,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1682484400,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 1682512093,
     "workflow_state": "no_translation"
   },
@@ -26256,16 +25108,16 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1683026056,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1683033527,
     "workflow_state": "no_translation"
   },
   {
     "id": 1683047870,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1683117805,
+    "workflow_state": "source_finalized"
   },
   {
     "id": 1683346341,
@@ -26290,10 +25142,6 @@
   {
     "id": 1683479766,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1683486276,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1683490863,
@@ -26412,10 +25260,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1687073972,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1687160442,
     "workflow_state": "no_translation"
   },
@@ -26480,10 +25324,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1688596525,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1688981497,
     "workflow_state": "no_translation"
   },
@@ -26498,10 +25338,6 @@
   {
     "id": 1689297608,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1689523251,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1689826135,
@@ -26616,10 +25452,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1692911114,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1693192648,
     "workflow_state": "no_translation"
   },
@@ -26660,10 +25492,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1694254403,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1694333649,
     "workflow_state": "no_translation"
   },
@@ -26690,10 +25518,6 @@
   {
     "id": 1695078959,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1695087307,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1695125246,
@@ -26748,20 +25572,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1696901607,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1696985491,
     "workflow_state": "no_translation"
   },
   {
     "id": 1697076403,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1697094896,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1697374148,
@@ -26852,20 +25668,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1700562130,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1700749216,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1700987866,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1701101712,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1701203828,
@@ -26886,10 +25690,6 @@
   {
     "id": 1701767501,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1701773151,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1701815844,
@@ -26946,10 +25746,6 @@
   {
     "id": 1703025767,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1703051091,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1703162110,
@@ -27124,10 +25920,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1707776981,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1707919787,
     "workflow_state": "no_translation"
   },
@@ -27186,10 +25978,6 @@
   {
     "id": 1709811240,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1709879043,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1709923326,
@@ -27326,10 +26114,6 @@
   {
     "id": 1713212212,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1713214332,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1713269810,
@@ -27496,6 +26280,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1717504663,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 1717530762,
     "workflow_state": "no_translation"
   },
@@ -27588,10 +26376,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1719421859,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1719687527,
     "workflow_state": "no_translation"
   },
@@ -27602,10 +26386,6 @@
   {
     "id": 1719840600,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1719925220,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1720078043,
@@ -27692,10 +26472,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1722122350,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1722218759,
     "workflow_state": "no_translation"
   },
@@ -27780,10 +26556,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1724240177,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1724267604,
     "workflow_state": "no_translation"
   },
@@ -27814,10 +26586,6 @@
   {
     "id": 1725221941,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1725245750,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1725333536,
@@ -28136,10 +26904,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1732006653,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1732062006,
     "workflow_state": "no_translation"
   },
@@ -28352,10 +27116,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1738177500,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1738219846,
     "workflow_state": "no_translation"
   },
@@ -28422,10 +27182,6 @@
   {
     "id": 1739100153,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1739172439,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1739246119,
@@ -28576,10 +27332,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1744011809,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1744016609,
     "workflow_state": "no_translation"
   },
@@ -28636,10 +27388,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1745124566,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1745248022,
     "workflow_state": "no_translation"
   },
@@ -28689,7 +27437,7 @@
   },
   {
     "id": 1745729389,
-    "workflow_state": "source_finalized"
+    "workflow_state": "source_draft"
   },
   {
     "id": 1745780913,
@@ -28710,10 +27458,6 @@
   {
     "id": 1745813575,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1745823513,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1745864901,
@@ -28916,10 +27660,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1749296858,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1749449205,
     "workflow_state": "no_translation"
   },
@@ -28982,10 +27722,6 @@
   {
     "id": 1751242853,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1751315786,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1751443940,
@@ -29132,16 +27868,16 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1754420604,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1754480856,
     "workflow_state": "no_translation"
   },
   {
     "id": 1754535759,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1754595734,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1754604253,
@@ -29192,20 +27928,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1755768437,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1755799939,
     "workflow_state": "no_translation"
   },
   {
     "id": 1755853677,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1755930961,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1755946029,
@@ -29266,6 +27994,10 @@
   {
     "id": 1757369051,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1757508011,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1757596872,
@@ -29380,10 +28112,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1760134906,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1760227260,
     "workflow_state": "no_translation"
   },
@@ -29430,10 +28158,6 @@
   {
     "id": 1761383769,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1761456708,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1761510936,
@@ -29497,10 +28221,6 @@
   },
   {
     "id": 1762750368,
-    "workflow_state": "no_translation"
-  },
-  {
-    "id": 1762766297,
     "workflow_state": "no_translation"
   },
   {
@@ -29580,16 +28300,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1764064134,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1764071001,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1764118856,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1764160209,
@@ -29658,10 +28370,6 @@
   {
     "id": 1765302917,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1765410641,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1765444242,
@@ -29872,10 +28580,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1769453810,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1769456720,
     "workflow_state": "no_translation"
   },
@@ -30017,7 +28721,7 @@
   },
   {
     "id": 1772684179,
-    "workflow_state": "no_translation"
+    "workflow_state": "source_finalized"
   },
   {
     "id": 1772693502,
@@ -30072,10 +28776,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1774360552,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1774365792,
     "workflow_state": "no_translation"
   },
@@ -30086,10 +28786,6 @@
   {
     "id": 1774440387,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1774457657,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1774538495,
@@ -30105,7 +28801,7 @@
   },
   {
     "id": 1775167656,
-    "workflow_state": "source_finalized"
+    "workflow_state": "source_draft"
   },
   {
     "id": 1775351772,
@@ -30122,10 +28818,6 @@
   {
     "id": 1775810521,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1776018461,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1776093164,
@@ -30164,10 +28856,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1777345804,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1777405159,
     "workflow_state": "no_translation"
   },
@@ -30186,10 +28874,6 @@
   {
     "id": 1777679322,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1777710845,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1777723889,
@@ -30238,10 +28922,6 @@
   {
     "id": 1778635466,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1778655045,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1779005661,
@@ -30304,16 +28984,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1780481649,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1780627169,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1780657391,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1780691498,
@@ -30392,10 +29064,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1782492944,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1782551994,
     "workflow_state": "no_translation"
   },
@@ -30422,10 +29090,6 @@
   {
     "id": 1783064973,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1783120152,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1783155873,
@@ -30480,10 +29144,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1784368309,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1784495550,
     "workflow_state": "no_translation"
   },
@@ -30524,10 +29184,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1785157181,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1785180349,
     "workflow_state": "no_translation"
   },
@@ -30546,10 +29202,6 @@
   {
     "id": 1785610897,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1785623573,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1785877632,
@@ -30668,10 +29320,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1789240257,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1789601606,
     "workflow_state": "no_translation"
   },
@@ -30776,10 +29424,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1791786789,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1791881133,
     "workflow_state": "no_translation"
   },
@@ -30840,10 +29484,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1792872538,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1793018780,
     "workflow_state": "no_translation"
   },
@@ -30860,10 +29500,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1793478004,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1793500575,
     "workflow_state": "no_translation"
   },
@@ -30878,6 +29514,10 @@
   {
     "id": 1793816092,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1793832553,
+    "workflow_state": "source_finalized"
   },
   {
     "id": 1793836658,
@@ -31044,10 +29684,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1797430351,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1797551438,
     "workflow_state": "no_translation"
   },
@@ -31062,14 +29698,6 @@
   {
     "id": 1798205134,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1798224645,
-    "workflow_state": "source_draft"
-  },
-  {
-    "id": 1798554384,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1798713694,
@@ -31116,10 +29744,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1800046152,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1800063512,
     "workflow_state": "no_translation"
   },
@@ -31142,10 +29766,6 @@
   {
     "id": 1800420985,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1800589712,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1800655272,
@@ -31190,10 +29810,6 @@
   {
     "id": 1801127308,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1801280365,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1801325632,
@@ -31244,10 +29860,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1802709556,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1802937371,
     "workflow_state": "no_translation"
   },
@@ -31266,10 +29878,6 @@
   {
     "id": 1803210773,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1803228019,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1803251768,
@@ -31332,10 +29940,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1804716114,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1804717158,
     "workflow_state": "no_translation"
   },
@@ -31392,16 +29996,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1805811930,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1805834794,
     "workflow_state": "source_draft"
-  },
-  {
-    "id": 1806047889,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1806295568,
@@ -31508,10 +30104,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1809076685,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1809144208,
     "workflow_state": "no_translation"
   },
@@ -31558,10 +30150,6 @@
   {
     "id": 1809791642,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1809833039,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1809869612,
@@ -31648,10 +30236,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1811804980,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1811876643,
     "workflow_state": "no_translation"
   },
@@ -31690,10 +30274,6 @@
   {
     "id": 1813156355,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1813269295,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1813283984,
@@ -31800,10 +30380,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1815522687,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1816101233,
     "workflow_state": "no_translation"
   },
@@ -31850,10 +30426,6 @@
   {
     "id": 1817236410,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1817266233,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1817309779,
@@ -31968,16 +30540,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1820351621,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1820385532,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1820403228,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1820515393,
@@ -32036,10 +30600,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1822037835,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1822100615,
     "workflow_state": "no_translation"
   },
@@ -32072,10 +30632,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1822616483,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1823047797,
     "workflow_state": "no_translation"
   },
@@ -32086,10 +30642,6 @@
   {
     "id": 1823074429,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1823221874,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1823277151,
@@ -32114,10 +30666,6 @@
   {
     "id": 1823942062,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1824216283,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1824270091,
@@ -32216,10 +30764,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1826430662,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1826572338,
     "workflow_state": "no_translation"
   },
@@ -32246,10 +30790,6 @@
   {
     "id": 1826861687,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1826885908,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1826991264,
@@ -32398,6 +30938,10 @@
   {
     "id": 1830416312,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1830443360,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1830453098,
@@ -32576,10 +31120,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1835000441,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1835122799,
     "workflow_state": "no_translation"
   },
@@ -32746,10 +31286,6 @@
   {
     "id": 1838208675,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1838283851,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1838417349,
@@ -32936,10 +31472,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1842177937,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1842187239,
     "workflow_state": "no_translation"
   },
@@ -32972,20 +31504,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1843053163,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1843176376,
     "workflow_state": "no_translation"
   },
   {
     "id": 1843274838,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1843564703,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1843593793,
@@ -33020,6 +31544,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1844345569,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 1844362845,
     "workflow_state": "no_translation"
   },
@@ -33052,10 +31580,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1844916585,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1845080684,
     "workflow_state": "no_translation"
   },
@@ -33070,10 +31594,6 @@
   {
     "id": 1845767847,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1845864943,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1845882895,
@@ -33244,16 +31764,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1850745152,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1850768972,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1850789677,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1850795752,
@@ -33302,10 +31814,6 @@
   {
     "id": 1851714659,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1851843865,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1851861389,
@@ -33444,6 +31952,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1855549821,
+    "workflow_state": "source_finalized"
+  },
+  {
     "id": 1855671776,
     "workflow_state": "no_translation"
   },
@@ -33486,10 +31998,6 @@
   {
     "id": 1856671630,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1856712299,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1856781003,
@@ -33562,10 +32070,6 @@
   {
     "id": 1858807986,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1858883005,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1859157939,
@@ -33724,10 +32228,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1862369249,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1862400453,
     "workflow_state": "no_translation"
   },
@@ -33754,10 +32254,6 @@
   {
     "id": 1862824927,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1862829707,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1862841947,
@@ -33888,10 +32384,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1866309234,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1866349457,
     "workflow_state": "no_translation"
   },
@@ -33932,14 +32424,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1867606025,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1868012848,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1868054004,
     "workflow_state": "no_translation"
   },
@@ -33954,10 +32438,6 @@
   {
     "id": 1868703003,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1868749365,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1868823004,
@@ -34156,10 +32636,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1873976607,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1874713793,
     "workflow_state": "no_translation"
   },
@@ -34352,20 +32828,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1879034256,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1879325236,
     "workflow_state": "no_translation"
   },
   {
     "id": 1879409272,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1879426007,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1879435725,
@@ -34434,14 +32902,6 @@
   {
     "id": 1880726014,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1880740866,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1880847309,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1880964050,
@@ -34544,10 +33004,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1882947360,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1883135920,
     "workflow_state": "no_translation"
   },
@@ -34612,16 +33068,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1884337471,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1884528312,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1884536960,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1884920507,
@@ -34728,10 +33176,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1887109671,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1887119379,
     "workflow_state": "no_translation"
   },
@@ -34750,10 +33194,6 @@
   {
     "id": 1887489973,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1887590001,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1887638818,
@@ -34786,6 +33226,10 @@
   {
     "id": 1887973162,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1888011014,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1888093185,
@@ -34844,20 +33288,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1889622876,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1889628364,
     "workflow_state": "no_translation"
   },
   {
     "id": 1889804395,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1889904041,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1890005089,
@@ -34894,10 +33330,6 @@
   {
     "id": 1891224308,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1891504492,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1891897245,
@@ -34966,10 +33398,6 @@
   {
     "id": 1892939763,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1893266070,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1893318951,
@@ -35296,10 +33724,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1900804671,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1900874180,
     "workflow_state": "no_translation"
   },
@@ -35326,10 +33750,6 @@
   {
     "id": 1901667719,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1901848891,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1901938466,
@@ -35508,10 +33928,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1906203264,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1906269035,
     "workflow_state": "no_translation"
   },
@@ -35604,16 +34020,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1908246916,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1908592486,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1908747385,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1909080171,
@@ -35658,10 +34066,6 @@
   {
     "id": 1910421372,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1910440417,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1910498546,
@@ -35800,10 +34204,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1913140190,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1913233931,
     "workflow_state": "no_translation"
   },
@@ -35818,10 +34218,6 @@
   {
     "id": 1913790290,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1913805146,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1914205704,
@@ -35850,10 +34246,6 @@
   {
     "id": 1914692218,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1914724693,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1914740290,
@@ -35982,10 +34374,6 @@
   {
     "id": 1917447949,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1917523337,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1917542961,
@@ -36224,10 +34612,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1922204168,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1922208803,
     "workflow_state": "no_translation"
   },
@@ -36270,10 +34654,6 @@
   {
     "id": 1922764157,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1922904918,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1922945695,
@@ -36332,10 +34712,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1923877248,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1923927861,
     "workflow_state": "no_translation"
   },
@@ -36364,10 +34740,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1924603000,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1924674811,
     "workflow_state": "no_translation"
   },
@@ -36382,14 +34754,6 @@
   {
     "id": 1925211171,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1925237313,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1925287238,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1925345831,
@@ -36436,10 +34800,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1926973262,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1926998862,
     "workflow_state": "no_translation"
   },
@@ -36472,16 +34832,16 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1927619524,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1927735732,
     "workflow_state": "no_translation"
   },
   {
     "id": 1928132312,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1928361015,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1928404424,
@@ -36620,10 +34980,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1931882038,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1931967326,
     "workflow_state": "no_translation"
   },
@@ -36688,14 +35044,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1933367159,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 1933400906,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1933452705,
     "workflow_state": "no_translation"
   },
@@ -36736,10 +35084,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1934706534,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1934917769,
     "workflow_state": "no_translation"
   },
@@ -36750,10 +35094,6 @@
   {
     "id": 1935176060,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1935193600,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1935223568,
@@ -36844,10 +35184,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1937086350,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1937150091,
     "workflow_state": "no_translation"
   },
@@ -36894,10 +35230,6 @@
   {
     "id": 1938223886,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1938305345,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1938331880,
@@ -36970,10 +35302,6 @@
   {
     "id": 1939242095,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1939267108,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1939339395,
@@ -37062,6 +35390,10 @@
   {
     "id": 1941399035,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1941631051,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1941690805,
@@ -37236,10 +35568,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1947121834,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1947122671,
     "workflow_state": "no_translation"
   },
@@ -37352,10 +35680,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1950053537,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1950111982,
     "workflow_state": "no_translation"
   },
@@ -37410,10 +35734,6 @@
   {
     "id": 1951737815,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1951784404,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1951806616,
@@ -37488,10 +35808,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1953290786,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1953387624,
     "workflow_state": "no_translation"
   },
@@ -37546,10 +35862,6 @@
   {
     "id": 1955086601,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1955232864,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1955326666,
@@ -37720,10 +36032,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1959430599,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1959532685,
     "workflow_state": "no_translation"
   },
@@ -37816,10 +36124,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1961791187,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1961862076,
     "workflow_state": "no_translation"
   },
@@ -37848,10 +36152,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1962401746,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1962409251,
     "workflow_state": "no_translation"
   },
@@ -37862,6 +36162,10 @@
   {
     "id": 1962569089,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1962736755,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1962808788,
@@ -37896,10 +36200,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1963533754,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1963565031,
     "workflow_state": "no_translation"
   },
@@ -37912,16 +36212,16 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1963790390,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1963798949,
     "workflow_state": "no_translation"
   },
   {
     "id": 1964226217,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1964236758,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1964496121,
@@ -38012,10 +36312,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1966378639,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1966484429,
     "workflow_state": "no_translation"
   },
@@ -38038,10 +36334,6 @@
   {
     "id": 1967217311,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1967325471,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1967542901,
@@ -38136,10 +36428,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1970189314,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1970196162,
     "workflow_state": "no_translation"
   },
@@ -38154,10 +36442,6 @@
   {
     "id": 1970426417,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1970429014,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1970604360,
@@ -38488,6 +36772,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1978671355,
+    "workflow_state": "source_finalized"
+  },
+  {
     "id": 1978673499,
     "workflow_state": "no_translation"
   },
@@ -38502,10 +36790,6 @@
   {
     "id": 1978872530,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1978968715,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1979002914,
@@ -38740,10 +37024,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1984283048,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1984334289,
     "workflow_state": "no_translation"
   },
@@ -38782,10 +37062,6 @@
   {
     "id": 1984737834,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1984846548,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 1984856253,
@@ -38908,6 +37184,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 1986707430,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 1986761215,
     "workflow_state": "no_translation"
   },
@@ -38972,10 +37252,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1988345293,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1988347876,
     "workflow_state": "no_translation"
   },
@@ -39008,16 +37284,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1988672639,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 1988715187,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1988962156,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1989048915,
@@ -39128,10 +37396,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1991632583,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1991714275,
     "workflow_state": "no_translation"
   },
@@ -39178,6 +37442,10 @@
   {
     "id": 1993234204,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 1993245032,
+    "workflow_state": "source_draft"
   },
   {
     "id": 1993294534,
@@ -39300,10 +37568,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 1996073202,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 1996255431,
     "workflow_state": "no_translation"
   },
@@ -39338,10 +37602,6 @@
   {
     "id": 1996761076,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 1996875518,
-    "workflow_state": "source_draft"
   },
   {
     "id": 1996882216,
@@ -39584,14 +37844,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2000507949,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 2000520382,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2000702641,
     "workflow_state": "no_translation"
   },
@@ -39728,10 +37980,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2003166570,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2003343389,
     "workflow_state": "no_translation"
   },
@@ -39754,10 +38002,6 @@
   {
     "id": 2003579617,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2003602250,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2003891513,
@@ -39850,10 +38094,6 @@
   {
     "id": 2005754190,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2005775314,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2005818205,
@@ -40000,10 +38240,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2008406633,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2008445304,
     "workflow_state": "no_translation"
   },
@@ -40058,10 +38294,6 @@
   {
     "id": 2009169680,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2009252113,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2009262741,
@@ -40180,10 +38412,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2012920632,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2013518904,
     "workflow_state": "no_translation"
   },
@@ -40226,10 +38454,6 @@
   {
     "id": 2014331819,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2014441977,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2014458345,
@@ -40334,6 +38558,10 @@
   {
     "id": 2017339930,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 2017352898,
+    "workflow_state": "source_draft"
   },
   {
     "id": 2017484930,
@@ -40536,10 +38764,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2022779583,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2022815492,
     "workflow_state": "no_translation"
   },
@@ -40570,10 +38794,6 @@
   {
     "id": 2023492473,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2023602404,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2023700408,
@@ -40804,16 +39024,16 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 2030007044,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 2030064825,
     "workflow_state": "no_translation"
   },
   {
     "id": 2030268379,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2030420908,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2030471293,
@@ -40857,10 +39077,6 @@
   },
   {
     "id": 2031398208,
-    "workflow_state": "no_translation"
-  },
-  {
-    "id": 2031520460,
     "workflow_state": "no_translation"
   },
   {
@@ -40912,6 +39128,10 @@
     "workflow_state": "no_translation"
   },
   {
+    "id": 2033306520,
+    "workflow_state": "source_draft"
+  },
+  {
     "id": 2033331287,
     "workflow_state": "no_translation"
   },
@@ -40930,10 +39150,6 @@
   {
     "id": 2033608706,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2033683538,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2033729226,
@@ -40980,10 +39196,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2035559889,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2035566681,
     "workflow_state": "no_translation"
   },
@@ -40994,10 +39206,6 @@
   {
     "id": 2035703682,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2035719143,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2035738259,
@@ -41054,10 +39262,6 @@
   {
     "id": 2036812219,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2036945118,
-    "workflow_state": "source_draft"
   },
   {
     "id": 2037155627,
@@ -41162,10 +39366,6 @@
   {
     "id": 2040241823,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2040255972,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2040272698,
@@ -41328,10 +39528,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2044662692,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2044700104,
     "workflow_state": "no_translation"
   },
@@ -41438,10 +39634,6 @@
   {
     "id": 2046799904,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2046882413,
-    "workflow_state": "source_draft"
   },
   {
     "id": 2046911562,
@@ -41584,10 +39776,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2050557796,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2050567663,
     "workflow_state": "no_translation"
   },
@@ -41664,20 +39852,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2052103780,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 2052347149,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2052396956,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2052406331,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2052477586,
@@ -41804,10 +39980,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2054960036,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2055077319,
     "workflow_state": "no_translation"
   },
@@ -41818,10 +39990,6 @@
   {
     "id": 2055157922,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2055224126,
-    "workflow_state": "source_draft"
   },
   {
     "id": 2055247537,
@@ -41846,18 +40014,6 @@
   {
     "id": 2055698937,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2055784401,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 2055966505,
-    "workflow_state": "source_draft"
-  },
-  {
-    "id": 2056009186,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2056051759,
@@ -41988,10 +40144,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2059309323,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2059343097,
     "workflow_state": "no_translation"
   },
@@ -42064,10 +40216,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2060567490,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2060638393,
     "workflow_state": "no_translation"
   },
@@ -42110,10 +40258,6 @@
   {
     "id": 2061462696,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2061471238,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2061515796,
@@ -42260,10 +40404,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2064330130,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2064353272,
     "workflow_state": "no_translation"
   },
@@ -42328,10 +40468,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2066219068,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 2066253349,
     "workflow_state": "no_translation"
   },
@@ -42342,10 +40478,6 @@
   {
     "id": 2066691543,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2066844916,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2066872005,
@@ -42560,10 +40692,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2071509287,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 2071711949,
     "workflow_state": "no_translation"
   },
@@ -42574,10 +40702,6 @@
   {
     "id": 2071770768,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2072100418,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2072209959,
@@ -42804,10 +40928,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2078267864,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 2078348778,
     "workflow_state": "no_translation"
   },
@@ -42853,7 +40973,7 @@
   },
   {
     "id": 2079269896,
-    "workflow_state": "source_finalized"
+    "workflow_state": "source_draft"
   },
   {
     "id": 2079451061,
@@ -42908,16 +41028,8 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2080350846,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 2080486068,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2080492504,
-    "workflow_state": "source_draft"
   },
   {
     "id": 2080746409,
@@ -42946,10 +41058,6 @@
   {
     "id": 2081388613,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2081411375,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2081578998,
@@ -43048,10 +41156,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2083766357,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2083991846,
     "workflow_state": "no_translation"
   },
@@ -43120,10 +41224,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2085354219,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2085541418,
     "workflow_state": "no_translation"
   },
@@ -43134,10 +41234,6 @@
   {
     "id": 2085656339,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2085695260,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2085745295,
@@ -43200,10 +41296,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2087422421,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2087517388,
     "workflow_state": "no_translation"
   },
@@ -43242,6 +41334,10 @@
   {
     "id": 2088335242,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 2088390752,
+    "workflow_state": "source_draft"
   },
   {
     "id": 2088492247,
@@ -43312,10 +41408,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2089442496,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 2089489061,
     "workflow_state": "no_translation"
   },
@@ -43342,10 +41434,6 @@
   {
     "id": 2090392235,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2090412896,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2090530045,
@@ -43388,10 +41476,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2091327722,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2091463119,
     "workflow_state": "no_translation"
   },
@@ -43410,10 +41494,6 @@
   {
     "id": 2091720140,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2091742151,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2091785508,
@@ -43562,10 +41642,6 @@
   {
     "id": 2094550250,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2094660942,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2094720295,
@@ -43820,10 +41896,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2101520827,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 2101710954,
     "workflow_state": "no_translation"
   },
@@ -43836,10 +41908,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2101924039,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 2101924597,
     "workflow_state": "no_translation"
   },
@@ -43850,10 +41918,6 @@
   {
     "id": 2102176375,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2102463040,
-    "workflow_state": "source_draft"
   },
   {
     "id": 2102593700,
@@ -43932,14 +41996,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2104407957,
-    "workflow_state": "source_draft"
-  },
-  {
-    "id": 2104428424,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2104475721,
     "workflow_state": "no_translation"
   },
@@ -44008,10 +42064,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2105929766,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 2105978386,
     "workflow_state": "no_translation"
   },
@@ -44062,10 +42114,6 @@
   {
     "id": 2107566645,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2107670232,
-    "workflow_state": "source_draft"
   },
   {
     "id": 2107674158,
@@ -44364,10 +42412,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2113423483,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 2113597538,
     "workflow_state": "no_translation"
   },
@@ -44424,12 +42468,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2114324059,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2114375436,
     "workflow_state": "no_translation"
+  },
+  {
+    "id": 2114420982,
+    "workflow_state": "source_draft"
   },
   {
     "id": 2114465266,
@@ -44462,10 +42506,6 @@
   {
     "id": 2114883564,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2114893529,
-    "workflow_state": "source_draft"
   },
   {
     "id": 2114930907,
@@ -44572,10 +42612,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2118348080,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2118355617,
     "workflow_state": "no_translation"
   },
@@ -44586,10 +42622,6 @@
   {
     "id": 2118522114,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2118591211,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2118647197,
@@ -44690,10 +42722,6 @@
   {
     "id": 2120793364,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2120864617,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2120873390,
@@ -44800,10 +42828,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2123866935,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 2123937108,
     "workflow_state": "no_translation"
   },
@@ -44838,10 +42862,6 @@
   {
     "id": 2124550141,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2124571839,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2124614573,
@@ -44924,10 +42944,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2125924794,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2125965310,
     "workflow_state": "no_translation"
   },
@@ -44948,14 +42964,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2126230714,
-    "workflow_state": "source_finalized"
-  },
-  {
-    "id": 2126261431,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2126298618,
     "workflow_state": "no_translation"
   },
@@ -44968,24 +42976,12 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2126383423,
-    "workflow_state": "source_draft"
-  },
-  {
-    "id": 2126410401,
-    "workflow_state": "source_draft"
-  },
-  {
     "id": 2126514493,
     "workflow_state": "no_translation"
   },
   {
     "id": 2126647620,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2126775103,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2126816623,
@@ -45034,10 +43030,6 @@
   {
     "id": 2127281534,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2127295242,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2127316158,
@@ -45125,10 +43117,6 @@
   },
   {
     "id": 2129021866,
-    "workflow_state": "no_translation"
-  },
-  {
-    "id": 2129043224,
     "workflow_state": "no_translation"
   },
   {
@@ -45284,10 +43272,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2133098130,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2133392467,
     "workflow_state": "no_translation"
   },
@@ -45372,10 +43356,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2135018082,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2135062112,
     "workflow_state": "no_translation"
   },
@@ -45448,10 +43428,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2136279086,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2136413733,
     "workflow_state": "no_translation"
   },
@@ -45480,10 +43456,6 @@
     "workflow_state": "no_translation"
   },
   {
-    "id": 2136933500,
-    "workflow_state": "source_finalized"
-  },
-  {
     "id": 2136955478,
     "workflow_state": "no_translation"
   },
@@ -45502,10 +43474,6 @@
   {
     "id": 2137462698,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2137477375,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2137530219,
@@ -45710,10 +43678,6 @@
   {
     "id": 2142443932,
     "workflow_state": "no_translation"
-  },
-  {
-    "id": 2142559579,
-    "workflow_state": "source_finalized"
   },
   {
     "id": 2143266543,
